@@ -1,0 +1,11 @@
+<script>
+var dogs = ["pincher", "spotted", "fluffy", "chihuahua"];
+var myFavorite = dogs[Math.floor(Math.random()*dogs.length)];
+var yourSelection = prompt("What is your favorite dog? Is it pincher, spotted, fluffy, or chihuahua?")
+alert("Your favorite dog is " + yourSelection + "." + " " + "Mine is" + " " + myFavorite + "!")
+if(yourSelection === myFavorite){
+  alert("We're besties!")
+}else{
+  alert("Not a match!")
+}
+</script>
